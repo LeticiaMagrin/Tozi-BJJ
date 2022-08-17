@@ -1,6 +1,47 @@
+@import url(//db.onlinewebfonts.com/c/066ce24dae3730ed6c648b09efaea93a?family=Acumin+Variable+Concept);
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Clarendon";
+    
+}
+
+body {
+    background-color: black;
+}
+
+.container-cabeçalho{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+    margin-left: -80px;
+    margin-top: -100px;
+   
+
+}
+
+.logo h1 {
+    color: #fff ;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 200px;
+    margin-left: 2rem;
+   
 
 }
