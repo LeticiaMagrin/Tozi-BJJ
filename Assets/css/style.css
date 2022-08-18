@@ -1,10 +1,10 @@
-@import url(//db.onlinewebfonts.com/c/066ce24dae3730ed6c648b09efaea93a?family=Acumin+Variable+Concept);
+
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Clarendon";
+    font-family: Raleway, sans-serif;
     
 }
 
@@ -30,17 +30,31 @@ body {
 .logo img {
     width: 200px;
     height: auto;
-    margin-left: -80px;
-    margin-top: -100px;
+   
+  
    
 
 }
 
 .logo h1 {
-    color: #fff ;
+    color: #fff;
     font-size: 2rem;
-    margin-bottom: 200px;
     margin-left: 2rem;
-   
+    margin-bottom: 250px; 
+    box-sizing: 150px, 50px;
+    
+}
 
+ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    position: sticky;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer
+    
 }
