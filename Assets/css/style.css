@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: #17181c;
 }
 
 .container-cabeçalho{
@@ -20,7 +20,7 @@ body {
     width: 100%;
 }
 
-.logo {
+.logo, .btn-p{
     display: flex;
     align-items: center;
     
@@ -31,30 +31,100 @@ body {
     width: 200px;
     height: auto;
    
-  
    
-
 }
 
 .logo h1 {
-    color: #fff;
+    color: #a1ad18aa;
     font-size: 2rem;
-    margin-left: 2rem;
-    margin-bottom: 250px; 
-    box-sizing: 150px, 50px;
+    position: absolute;
+    margin-left: 220px;
+    margin-bottom: 180px;
+    
     
 }
 
 ul{
     display: flex;
-    list-style: none;
+    list-style-type: none;
     gap: 2rem;
-    position: sticky;
+    margin-left: -150px;
+   
 }
 
-ul li a {
+ul li a{
     text-decoration: none;
-    color: black;
-    cursor: pointer
+    color: #d7e426 ;
+    cursor: pointer;
+    box-sizing: content-box;
+   
+}
+ 
+.meio {
+    display: flex;
+    max-width: 100%;
+    margin-top: 5rem;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.direita  img{
+    max-width: 100%;
+    width: 300px;
+    height: auto;
+    justify-content: right;
+}
+
+.esquerda {
+    max-width: 100%;
+}
+
+.title h1{
+    font-size: 50px;
+    color: #717909;
+    margin-left: 40px;
+ 
+}
+
+.title h2{
+    font-size: 50px;
+    color: #717909;
+    margin-left: 25px;
+    margin-bottom: 180px;
     
+}
+
+.title h1:hover {
+    color: #a5af13;
+    transition: 0.10s;
+}
+
+.esquerda p{
+    color: #ccc;
+    line-height: 2.5rem;
+}
+.pulse {
+    background: none;
+    color: #d7e426;
+    border: 2px solid;
+    padding: 3px 15px;
+    row-gap: 2px;
+    transition: 0.8s;
+}
+
+.pulse:hover, .pulse:focus{
+    color: #fff;
+    border-color: #717909;
+    box-shadow: 0 0 0 15px rgba(255, 255, 255, 0);
+    animation: pulsar 1s;
+}
+
+
+
+
+@keyframes pulsar {
+    0% {
+        box-shadow: 0 0 0 0 #717909;
+    }
 }
