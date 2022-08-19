@@ -99,7 +99,10 @@ ul li a{
     color: #a5af13;
     transition: 0.10s;
 }
-
+.title h2:hover {
+    color: #a5af13;
+    transition: 0.10s;
+}
 .esquerda p{
     color: #ccc;
     line-height: 2.5rem;
