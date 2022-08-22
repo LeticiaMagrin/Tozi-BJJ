@@ -74,6 +74,7 @@ ul li a{
     width: 300px;
     height: auto;
     justify-content: right;
+    
 }
 
 .esquerda {
@@ -91,7 +92,7 @@ ul li a{
     font-size: 50px;
     color: #717909;
     margin-left: 25px;
-    margin-bottom: 180px;    
+      
 }
 
 .title h1:hover {
@@ -105,7 +106,29 @@ ul li a{
 .esquerda p{
     color: #ccc;
     line-height: 2.5rem;
+    margin-left: 2rem;
+    margin-top: 50px;
+    
+    border-top: 200px;
+    border-top-color: #a5af13;
+
 }
+
+.saiba-mais {
+    background: none;
+    color: #d7e426;
+    border: 2px solid;
+    padding: 3px 15px;
+    row-gap: 2px;
+    transition: 0.8s;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    margin-left: 2rem;
+    justify-content:flex-end;
+
+   
+    
+ }
 .pulse {
     background: none;
     color: #d7e426;
@@ -115,7 +138,7 @@ ul li a{
     transition: 0.8s;
 }
 
-.pulse:hover, .pulse:focus{
+.pulse:hover, .pulse:focus, .saiba-mais:hover{
     color: #fff;
     border-color: #717909;
     box-shadow: 0 0 0 15px rgba(255, 255, 255, 0);
@@ -123,7 +146,12 @@ ul li a{
 }
 
 
-
+footer {
+    color: #ccc;
+    margin-top: 5rem;
+    margin-left: 30%;
+    margin-bottom: 5rem;
+}
 
 @keyframes pulsar {
     0% {
