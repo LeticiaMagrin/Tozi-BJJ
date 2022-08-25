@@ -22,9 +22,9 @@
     
   <h2 align="center"> Tecnologias Utilizadas: </h2>
     
-   * [HTML 5](#HTML-5)
-   * [CSS 3](#CSS-3)
-   * [JavaScript](#JavaScript)
+   * HTML 5
+   * CSS 3
+   * JavaScript
   
 </div>
 
