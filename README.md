@@ -12,3 +12,20 @@
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
 </div>
+
+<div>
+
+  ## ⚒️ Funcionalidades do projeto
+
+  -`Navegação entre as páginas`: Acesso às páginas de grade de horários, galeria de fotos, campeonatos e contatos. 🚧(In Progress)🚧
+  
+  -`Site responsivo para mobile`: Acesso a versão mobile, com o conteúdo responsivo. 🚧(In Progress)🚧
+  
+</div>
+
+<div align="center">
+  
+  ![Tozi BJJ - Google Chrome 2022-08-25 18-36-31](https://user-images.githubusercontent.com/108889811/186773827-886a1c9e-160e-4fea-9a84-183c7cfcb4ec.gif)
+
+</div>
+
